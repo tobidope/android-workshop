@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Example_02_Calculator</string>
+    <string name="result">Result: %s</string>
+    <string name="add_sign">+</string>
+    <string name="substract_sign">-</string>
+    <string name="default_value">0</string>
+    <string name="input_error">"Input Error"</string>
+</resources>
