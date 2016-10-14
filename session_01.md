@@ -95,8 +95,16 @@ A cross product of a build type and product flavor.
 # 3. Hands On 
 ## Activity
 ### Helloworld
+![Hello World Exercise][helloworld_exercise]
+
 _[time aprox: 15 min]_
-### Calculator
+### Calculator with Tests
+![Calculator Exercise][calculator_exercise]
+
+[Mockito Cheat Sheet](https://github.com/romanrodriguez-sp/android-workshop/blob/master/docs/mockito-dzone-refcard.pdf)
+
+[Espresso Cheat Sheet](https://github.com/romanrodriguez-sp/android-workshop/blob/master/docs/espresso-cheat-sheet-2.1.0.pdf)
+
 _[time aprox: 45 min]_
 ## Run on emulator
 ![Android Emulator Button][emulator]
@@ -185,3 +193,5 @@ https://developer.android.com
 [build_variants]: https://github.com/romanrodriguez-sp/android-workshop/blob/master/screenshots/build_variants.png?raw=true "SDK Installed Options"
 [activity_lifecycle]: https://developer.android.com/images/activity_lifecycle.png "Activity Lifecycle Flow"
 [enable_keyboard]: https://github.com/romanrodriguez-sp/android-workshop/blob/master/screenshots/enable_keyboard.png?raw=true "Android Emulator Enable Keyboard"
+[helloworld_exercise]: https://github.com/romanrodriguez-sp/android-workshop/blob/master/screenshots/helloworld_exercise.png?raw=true "Hello World Exercise"
+[calculator_exercise]: https://github.com/romanrodriguez-sp/android-workshop/blob/master/screenshots/calculator_exercise.png?raw=true "Calculator Exercise"
