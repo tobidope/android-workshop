@@ -93,9 +93,16 @@ A cross product of a build type and product flavor.
 
 
 # 3. Hands On 
-## Activity (Helloworld)
+## Activity
+### Helloworld
+_[time aprox: 15 min]_
+### Calculator
+_[time aprox: 45 min]_
 ## Run on emulator
 ![Android Emulator Button][emulator]
+Enable keyboard
+
+![Android Emulator Enable Keyboard][enable_keyboard]
 ## Starting another activity 
 [Training](https://developer.android.com/training/basics/firstapp/starting-activity.html)
 ## Supporting different languages & devices
@@ -177,3 +184,4 @@ https://developer.android.com
 [sdk_installed]: https://github.com/romanrodriguez-sp/android-workshop/blob/master/screenshots/sdk_intalled.png?raw=true "SDK Installed Options"
 [build_variants]: https://github.com/romanrodriguez-sp/android-workshop/blob/master/screenshots/build_variants.png?raw=true "SDK Installed Options"
 [activity_lifecycle]: https://developer.android.com/images/activity_lifecycle.png "Activity Lifecycle Flow"
+[enable_keyboard]: https://github.com/romanrodriguez-sp/android-workshop/blob/master/screenshots/enable_keyboard.png?raw=true "Android Emulator Enable Keyboard"

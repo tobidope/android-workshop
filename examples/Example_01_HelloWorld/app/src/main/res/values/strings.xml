@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Example_01_HelloWorld</string>
+    <string name="helloworld">Hello World!</string>
+    <string name="hello_name">Hello %s!</string>
+    <string name="question">What is your name?</string>
+    <string name="name">Name</string>
+    <string name="click">Click</string>
+</resources>
