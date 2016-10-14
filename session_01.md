@@ -105,24 +105,28 @@ _[time aprox: 15 min]_
 
 [Espresso Cheat Sheet](https://github.com/romanrodriguez-sp/android-workshop/blob/master/docs/espresso-cheat-sheet-2.1.0.pdf)
 
-_[time aprox: 45 min]_
+_[time aprox: 1h]_
 ## Run on emulator
 ![Android Emulator Button][emulator]
 Enable keyboard
 
 ![Android Emulator Enable Keyboard][enable_keyboard]
-## Starting another activity 
-[Training](https://developer.android.com/training/basics/firstapp/starting-activity.html)
-## Supporting different languages & devices
-[Training](https://developer.android.com/training/basics/supporting-devices)
-## Supporting different platforms
-[Training](https://developer.android.com/training/basics/supporting-devices/platforms.html)
 ## Activity lifecycle
 ![Activity Lifecycle Flow][activity_lifecycle]
 
 [Training](https://developer.android.com/training/basics/activity-lifecycle)
+## Starting another activity 
+[Training](https://developer.android.com/training/basics/firstapp/starting-activity.html)
 ## Fragments
+It is a modular section of an activity, which has its own lifecycle, receives its own input events, and which you can add or remove while the activity is running.
+
+![Fragment][fragment]
+
 [Training](https://developer.android.com/training/basics/fragments)
+## Supporting different languages & devices
+[Training](https://developer.android.com/training/basics/supporting-devices)
+## Supporting different platform versions
+[Training](https://developer.android.com/training/basics/supporting-devices/platforms.html)
 ## Saving data
 [Training](https://developer.android.com/training/basics/data-storage)
 ### Shared preferences
@@ -195,3 +199,4 @@ https://developer.android.com
 [enable_keyboard]: https://github.com/romanrodriguez-sp/android-workshop/blob/master/screenshots/enable_keyboard.png?raw=true "Android Emulator Enable Keyboard"
 [helloworld_exercise]: https://github.com/romanrodriguez-sp/android-workshop/blob/master/screenshots/helloworld_exercise.png?raw=true "Hello World Exercise"
 [calculator_exercise]: https://github.com/romanrodriguez-sp/android-workshop/blob/master/screenshots/calculator_exercise.png?raw=true "Calculator Exercise"
+[fragment]: https://developer.android.com/images/training/basics/fragments-screen-mock.png "Fragment"
