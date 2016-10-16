@@ -92,13 +92,47 @@ A cross product of a build type and product flavor.
 ![Build Variants Selector][build_variants]
 
 
-# 3. Hands On 
+# 3. UI
 ## Activity
-### Helloworld
+## Fragment
+It is a modular section of an activity, which has its own lifecycle, receives its own input events, and which you can add or remove while the activity is running.
+
+![Fragment][fragment]
+## View and ViewGroup
+	
+__View__
+
+* View objects are the basic building blocks of User Interface(UI) elements in Android.
+* Examples are: EditText, Button, CheckBox, ...
+* View refers to the android.view.View class, which is the base class of all UI classes.
+
+__ViewGroup__
+
+* ViewGroup is the invisible container. It holds View and ViewGroup
+* Examples are: LinearLayout, RelativeLayout, FrameLayout, ...
+* ViewGroup is the base class for Layouts.
+
+![ViewGroup][viewgroup]
+
+__Linear Layout Vertical__
+![Linear Layout Vertical][linearlayout_vertical]
+__Linear Layout Horizontal__
+![Linear Layout Horizontal][linearlayout_horizontal]
+__Relative Layout__
+![Relative Layout][relativelayout]
+
+
+# 4. Hands On
+## Helloworld
 ![Hello World Exercise][helloworld_exercise]
 
 _[time aprox: 15 min]_
-### Calculator with Tests
+## Run on emulator
+![Android Emulator Button][emulator]
+Enable keyboard
+
+![Android Emulator Enable Keyboard][enable_keyboard]
+## Calculator with Tests
 ![Calculator Exercise][calculator_exercise]
 
 [Mockito Cheat Sheet](https://github.com/romanrodriguez-sp/android-workshop/blob/master/docs/mockito-dzone-refcard.pdf)
@@ -106,27 +140,16 @@ _[time aprox: 15 min]_
 [Espresso Cheat Sheet](https://github.com/romanrodriguez-sp/android-workshop/blob/master/docs/espresso-cheat-sheet-2.1.0.pdf)
 
 _[time aprox: 1h]_
-## Run on emulator
-![Android Emulator Button][emulator]
-Enable keyboard
-
-![Android Emulator Enable Keyboard][enable_keyboard]
 ## Activity lifecycle
 ![Activity Lifecycle Flow][activity_lifecycle]
 
 [Training](https://developer.android.com/training/basics/activity-lifecycle)
 ## Starting another activity 
 [Training](https://developer.android.com/training/basics/firstapp/starting-activity.html)
-## Fragments
-It is a modular section of an activity, which has its own lifecycle, receives its own input events, and which you can add or remove while the activity is running.
-
-![Fragment][fragment]
-
-[Training](https://developer.android.com/training/basics/fragments)
 ## Supporting different languages & devices
 [Training](https://developer.android.com/training/basics/supporting-devices)
-## Supporting different platform versions
-[Training](https://developer.android.com/training/basics/supporting-devices/platforms.html)
+## Fragments
+[Training](https://developer.android.com/training/basics/fragments)
 ## Saving data
 [Training](https://developer.android.com/training/basics/data-storage)
 ### Shared preferences
@@ -180,6 +203,9 @@ __WARNING__: https://developer.android.com/training/secure-file-sharing/index.ht
 ### Database
 [More info](https://developer.android.com/training/basics/data-storage/databases.html)
 ## Interacting with Other Apps
+[Training](https://developer.android.com/training/basics/intents/sending.html)
+## Supporting different platform versions
+[Training](https://developer.android.com/training/basics/supporting-devices/platforms.html)
 
 
 # References
@@ -200,3 +226,7 @@ https://developer.android.com
 [helloworld_exercise]: https://github.com/romanrodriguez-sp/android-workshop/blob/master/screenshots/helloworld_exercise.png?raw=true "Hello World Exercise"
 [calculator_exercise]: https://github.com/romanrodriguez-sp/android-workshop/blob/master/screenshots/calculator_exercise.png?raw=true "Calculator Exercise"
 [fragment]: https://developer.android.com/images/training/basics/fragments-screen-mock.png "Fragment"
+[viewgroup]: https://github.com/romanrodriguez-sp/android-workshop/blob/master/screenshots/viewgroup.png?raw=true "ViewGroup"
+[linearlayout_vertical]: https://github.com/romanrodriguez-sp/android-workshop/blob/master/screenshots/linearlayout_vertical.png?raw=true "Linear Layout Vertical"
+[linearlayout_horizontal]: https://github.com/romanrodriguez-sp/android-workshop/blob/master/screenshots/linearlayout_horizontal.png?raw=true "Linear Layout Horizontal"
+[relativelayout]: https://github.com/romanrodriguez-sp/android-workshop/blob/master/screenshots/relativelayout.png?raw=true "Relative Layout"
