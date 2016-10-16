@@ -94,6 +94,12 @@ A cross product of a build type and product flavor.
 
 # 3. UI
 ## Activity
+It is basically the screen of your app:
+
+* Implements the user interface.
+* Has to be declared on the manifest.
+
+[More info](https://developer.android.com/guide/components/activities.html)
 ## Fragment
 It is a modular section of an activity, which has its own lifecycle, receives its own input events, and which you can add or remove while the activity is running.
 
