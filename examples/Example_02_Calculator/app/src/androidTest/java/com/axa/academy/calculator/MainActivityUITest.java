@@ -16,6 +16,9 @@ import org.junit.BeforeClass;
 import org.junit.Rule;
 import org.junit.Test;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.action.ViewActions.typeText;
@@ -25,6 +28,7 @@ import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
@@ -37,6 +41,9 @@ public class MainActivityUITest {
     private final static String INPUT_HINT = "0";
     private final static String RESULT = "Result: ";
     private final static String INPUT_ERROR = "Input Error";
+
+    private static final String INTEGER_PATTERN = "\\d+";
+    private static final Pattern RESULT_PATTERN = Pattern.compile(RESULT.concat(INTEGER_PATTERN));
 
     @Rule
     public ActivityTestRule<MainActivity> activityRule =
@@ -101,7 +108,7 @@ public class MainActivityUITest {
             @Override
             public void check(View view, NoMatchingViewException noViewFoundException) {
                 TextView aux = (TextView) view;
-                aux.getText().toString().contentEquals(RESULT.concat("2"));
+                assertTrue(RESULT_PATTERN.matcher(aux.getText().toString()).matches());
             }
         });
     }
@@ -119,7 +126,7 @@ public class MainActivityUITest {
             @Override
             public void check(View view, NoMatchingViewException noViewFoundException) {
                 TextView aux = (TextView) view;
-                aux.getText().toString().contentEquals(RESULT.concat("2"));
+                assertTrue(RESULT_PATTERN.matcher(aux.getText().toString()).matches());
             }
         });
     }

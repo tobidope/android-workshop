@@ -44,5 +44,6 @@ dependencies {
     // Instrumentation test requires dexamker and mockito_dexmaker
     androidTestCompile "com.google.dexmaker:dexmaker:1.2"
     androidTestCompile "com.google.dexmaker:dexmaker-mockito:1.2"
+    androidTestCompile 'junit:junit:4.12'
 
 }

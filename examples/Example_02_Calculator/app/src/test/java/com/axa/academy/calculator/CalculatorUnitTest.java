@@ -34,32 +34,32 @@ public class CalculatorUnitTest {
     }
 
     @Test
-    public void testAddPositives() throws Exception {
+    public void testAddPositives() {
         assertEquals(4, calculator.add(2, 2));
     }
 
     @Test
-    public void testAddPositiveNegative() throws Exception {
+    public void testAddPositiveNegative() {
         assertEquals(0, calculator.add(2, -2));
     }
 
     @Test
-    public void testAddNegatives() throws Exception {
+    public void testAddNegatives() {
         assertEquals(-4, calculator.add(-2, -2));
     }
 
     @Test
-    public void testSubstractPositives() throws Exception {
+    public void testSubstractPositives() {
         assertEquals(0, calculator.substract(2, 2));
     }
 
     @Test
-    public void testSubstractPositiveNegative() throws Exception {
+    public void testSubstractPositiveNegative() {
         assertEquals(4, calculator.substract(2, -2));
     }
 
     @Test
-    public void testSubstractNegatives() throws Exception {
+    public void testSubstractNegatives() {
         assertEquals(0, calculator.substract(-2, -2));
     }
 
