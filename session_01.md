@@ -159,7 +159,7 @@ _[time aprox: 1h]_
 ## Saving data
 [Training](https://developer.android.com/training/basics/data-storage)
 ### Shared preferences
-Private primitive data in key-value pairs, like Java Protperties file.
+Private primitive data in key-value pairs, like Java Properties file.
 
 ```java
 public class MainActivity extends AppCompatActivity {
